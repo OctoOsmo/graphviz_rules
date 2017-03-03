@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rule viewer</title>
+</head>
+<body>
+<!-- <textarea name="graphviz_code" rows="60" cols="120">asfa</textarea> -->
+<h1 align="center">Rule</h1>
+<script>
+    var path = require('path');
+    ind_js = path.join(__dirname, 'index.js');
+    require(ind_js)
+</script>
+<h1 align="center" onload="ind_js">End of page</h1>
+</body>
+</html>

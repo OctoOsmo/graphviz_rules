@@ -1,0 +1,23 @@
+{
+  "name": "graphviz_rules_graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . rules_graph --platform=win32 --arch=x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tatarintsev Aleksandr",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-packager": "^8.5.1",
+    "electron-rebuild": "^1.5.7",
+    "viz.js": "^1.7.0"
+  },
+  "dependencies": {
+    "viz": "0.0.1",
+    "viz.js": "^1.7.0"
+  }
+}
